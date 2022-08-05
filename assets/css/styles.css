@@ -1,16 +1,21 @@
 body {
   background-color: #ffffff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 14px;
+  font-size: 15px; 
+  line-height: 1.6;
+}
+
+p {
+  max-width: 50%;
 }
 
 h1 {
-  color: #00D7FF;
+  color: #1E836C;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h3 {
-  color: #72FFFF;
+  color: #7CC9B8;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -28,4 +33,49 @@ hr {
 
 img {
   width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 10px 20px #1B2430;
+}
+
+input[type=text], input[type=email] {
+  width: 25%;
+  margin: 5px 0;
+  padding: 0.5%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  resize: none;
+
+}
+
+input[type=submit] {
+  background-color: #7CC9B8;
+  width: 14%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+}
+
+input[type=submit]:hover {
+  background-color: #4f9989;
+}
+
+textarea {
+  width: 50;
+  margin: 5px 0;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  resize: none;
+  overflow-y: auto;
 }
